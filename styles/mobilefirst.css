@@ -14,20 +14,25 @@
 }
 
 header nav {
-    padding: 16px;
-}
+    display: flex;
+    justify-content: space-between;
 
-header nav div {
-    display: inline-block;
-}
-
-header nav div.right {
-    padding-top: 24px;
+    padding: 10px;
+    margin: auto;
 }
 
 header nav div.left {
     padding-top: 24px;
-    justify-content: ;
+    padding-left: 10px;
+}
+
+header nav div.right {
+    display: flex;
+
+    padding-top: 24px;
+    padding-right: 10px;
+
+    gap: 16px;
 }
 
 header nav div a {
