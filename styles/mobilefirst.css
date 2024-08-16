@@ -1,12 +1,10 @@
-@font-face {
-    font-family: 'Hello';
-    src: url('/font/webfonts_Hello-Prawita/Hello-Prawita.ttf.woff') format('woff'),
-        url('/font/webfonts_Hello-Prawita/Hello-Prawita.ttf.eot'),
-        url('/font/webfonts_Hello-Prawita/Hello-Prawita.ttf.svg') format('svg'),
-        url('/font/webfonts_Hello-Prawita/webfonts.ffonts.net.htm');
-        font-weight: normal;
-        font-style: normal;
-}
+/* @font-face {
+    font-family: "Muringa";
+    src:url('/font/muringa.ttf') format('ttf'),
+        url('/font/ffonts.net.htm');
+    font-weight: normal;
+    font-style: normal;
+} */
 
 .roboto-regular {
     font-family: "Roboto", sans-serif;
@@ -23,8 +21,8 @@
 * {
     font-family: "Roboto";
 
-    padding: 0%;
-    margin: 0%;
+    padding-left: 2px;
+    padding-right: 2px;
     background-color: rgb(25, 24, 24);
     color: white;
 }
@@ -33,38 +31,62 @@ header nav {
     display: flex;
     justify-content: space-between;
 
-    padding: 10px;
+    padding: 10px 0px;
     margin: auto;
 }
 
 header nav div.left {
-    font-family: 'Hello';
+    font-family: "Muringa", sans-serif;
     font-weight: 700;
     font-size: 1.7rem;
 
     padding-top: 24px;
-    padding-left: 10px;
 }
 
-header nav div.left a {
+header nav div.left a.head {
     font: bolder;
+    font-size: 2rem;
 }
 
 header nav div.right {
     display: flex;
 
     padding-top: 24px;
-    padding-right: 10px;
 
     gap: 16px;
 }
 
-header nav div a {
+header nav div a.head {
     text-decoration: none;
     color: lightgray;
 }
 
-header nav a:hover {
+header nav a.head:hover {
     color: white;
-    text-decoration: ;
+}
+
+main section {
+    padding-top: 16px;
+}
+
+/* main section article.sub{
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(115, 115, 115);
+} */
+
+main section article data {
+    font-size: .9rem;
+    color: rgb(115, 115, 115);
+    display: block;
+}
+
+main section article a {
+    display: block;
+    text-decoration: none;
+    padding: 0px;
+    border-top: 1px solid rgb(115, 115, 115); 
+}
+
+main section article a:hover {
+    color: white;
 }
