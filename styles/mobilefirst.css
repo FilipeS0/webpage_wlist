@@ -74,8 +74,12 @@ main section {
     border-bottom: 1px solid rgb(115, 115, 115);
 } */
 
+main section article p {
+    font-size: 1rem;
+}
+
 main section article data {
-    font-size: .9rem;
+    font-size: .875rem;
     color: rgb(115, 115, 115);
     display: block;
 }
@@ -89,4 +93,5 @@ main section article a {
 
 main section article a:hover {
     color: white;
+    text-decoration: solid;
 }
