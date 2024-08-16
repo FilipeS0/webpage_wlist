@@ -21,8 +21,9 @@
 * {
     font-family: "Roboto";
 
-    padding-left: 2px;
-    padding-right: 2px;
+    margin: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
     background-color: rgb(25, 24, 24);
     color: white;
 }
@@ -65,33 +66,57 @@ header nav a.head:hover {
     color: white;
 }
 
+section h1 {
+    font-size: 3rem;
+    margin: 0px;
+    margin-top: 35px;
+}
+
+header p {
+    margin: 0px;
+    color: #909090;
+    padding: 10px;
+}
+
 main section {
     padding-top: 16px;
 }
 
-/* main section article.sub{
-    padding-bottom: 2px;
-    border-bottom: 1px solid rgb(115, 115, 115);
-} */
+main section a {
+    display: block;
+    text-decoration: none;
+    padding-bottom: 8px;
+    
+    border-top: 1px solid rgb(115, 115, 115); 
+}
 
 main section article p {
     font-size: 1rem;
+    padding: 7px 0px;
 }
 
 main section article data {
     font-size: .875rem;
+    font-weight: lighter;
+
+    padding: 2px 0px;
+
     color: rgb(115, 115, 115);
     display: block;
 }
 
-main section article a {
-    display: block;
-    text-decoration: none;
-    padding: 0px;
-    border-top: 1px solid rgb(115, 115, 115); 
+main .sub:first-child a {
+    border-top: none;
 }
 
-main section article a:hover {
+main section a:hover p,
+main section a:hover data {
     color: white;
-    text-decoration: solid;
+}
+
+footer p{
+    color: #878787;
+    
+    padding: 50px;
+    margin: auto;
 }
