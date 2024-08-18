@@ -1,3 +1,32 @@
-@media screen {
-    
+@media screen and (min-width: 786px) {    
+    header, main, footer {
+        max-width: 750px;
+        margin: auto;
+    }
+
+    header nav div.left {
+        font-size: 2rem;
+    }
+
+    section h1 {
+        font-size: 7rem;
+    }
+
+    main section article a {
+        padding-top: 10px;
+    }
+
+    main section article p {
+        font-size: 1.4rem;
+        display: inline-block;
+    }
+
+    main section article data {
+        font-size: 1rem;
+        
+        display: inline-block;
+        margin-top: 7px;
+
+        float: right;
+    }
 }
